@@ -25,11 +25,16 @@ For the installation and start-up of the repository, it is necessary to have the
 
 
 ### Database:
-The data used for the development of this work are obtained in [Data for Validating Models for PV Module Performance](https://datahub.duramat.org/dataset/data-for-validating-models-for-pv-module-performance) of NREL
 
 
 
+The data used to validate the convergence of the algorithmic proposal correspond to [PV Module List](https://www.energy.ca.gov/media/2367) from the California Energy Commission (CEC).
 
+The data used for out-of-sample validation in this work are obtained from [Data for Validating Models for PV Module Performance](https://datahub.duramat.org/dataset/data-for-validating-models-for-pv-module-performance) from National Renewable Energy Laboratory (NREL).
+
+
+
+https://www.energy.ca.gov/media/2367
 
 
 ## Contents
