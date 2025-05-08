@@ -1,1 +1,61 @@
 # ParameterIdentification_11PFF
+*** project in progress
+# Identification of the 11-Parameter Functional Form Model for Photovoltaic Modules Using Manufacturer-Provided Ratings
+
+
+
+
+## Abstrac
+In light of the ongoing decline in photovoltaic (PV) generation costs and its growing competitiveness with retail electricity prices, accurately predicting PV performance is increasingly important. While manufacturers have typically rated PV modules at standard test conditions (STC), their ratings are now being enhanced by reporting module data at low irradiance conditions (LIC) and nominal operating cell temperature (NOCT). Recently, an enhanced PV model was proposed \cite{10187624}, capable of reproducing the behavior of a PV module across a wide range of atmospheric conditions. Although the superiority of this model is thoroughly discussed in \cite{10187624}, the identification of its characterizing parameters from ratings provided by manufacturers is not addressed. This paper proposes a parameter identification methodology relying on STC, LIC, and NOCT ratings. The problem at hand involves solving a complex system of eleven nonlinear equations, and is approached by progressively reducing the search space and generating adjustment functions. The methodology is tested in an automated fashion over the entire California Energy Commission PV database, which currently contains 17,710 modules, achieving a convergence rate of 99.8\%. The quality of the identified model is assessed by comparing energy predictions against experimental measurements, including state-of-the-art models available in the literature. Results indicate that the identified model reduces prediction errors by about 9\% compared to the best competitive model.
+
+
+## Installation
+For the installation and start-up of the repository, it is necessary to have the following libraries:
+
+* [scikit-learn](https://scikit-learn.org/stable/install.html)
+* [numpy](https://numpy.org/install/)
+* [pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+* [sympy](https://www.sympy.org/en/index.html)
+
+
+
+
+
+
+### Database:
+The data used for the development of this work are obtained in [Data for Validating Models for PV Module Performance](https://datahub.duramat.org/dataset/data-for-validating-models-for-pv-module-performance) of NREL
+
+
+
+
+
+
+## Contents
+
+![Parameters dependency over a wide operating range for PV module](https://github.com/DIE-UTFSM-AA/A-Neural-Network-Aided-Functional-Model-of-PVArrays-for-a-Wide-Range-of-Atmospheric-Conditions/blob/main/FIgs/fig2.png)
+
+
+
+
+
+
+
+
+
+## Citation
+    @ARTICLE{10935289,
+    author={Angulo, Alejandro and Huerta, Miguel and Mancilla–David, Fernando},
+    journal={IEEE Transactions on Industrial Informatics}, 
+    title={Identification of the 11-Parameter Functional Form Model for Photovoltaic Modules Using Manufacturer-Provided Ratings}, 
+    year={2025},
+    volume={},
+    number={},
+    pages={1-9},
+    abstract={In light of the ongoing decline in photovoltaic (PV) generation costs and its growing competitiveness with retail electricity prices, accurately predicting PV performance is increasingly important. While manufacturers have typically rated PV modules at standard test conditions (STCs), their ratings are now being enhanced by reporting module data at low irradiance conditions (LICs) and nominal operating cell temperature (NOCT). Recently, an enhanced PV model was proposed Angulo et al., 2024, capable of reproducing the behavior of a PV module across a wide range of atmospheric conditions. Although the superiority of this model is thoroughly discussed in Angulo et al., 2024, the identification of its characterizing parameters from ratings provided by manufacturers is not addressed. This paper proposes a parameter identification methodology relying on STC, LIC, and NOCT ratings. The problem at hand involves solving a complex system of eleven nonlinear equations, and is approached by progressively reducing the search space and generating adjustment functions. The methodology is tested in an automated fashion over the entire California Energy Commission PV database, which currently contains 17 710 modules, achieving a convergence rate of 99.8%. The quality of the identified model is assessed by comparing energy predictions against experimental measurements, including state-of-the-art models available in the literature. Results indicate that the identified model reduces prediction errors by about 9% compared to the best competitive model.},
+    keywords={Mathematical models;Atmospheric modeling;Computational modeling;Databases;Vectors;Standards;Predictive models;Parameter estimation;Silicon;IEC Standards;Parameter identification;photovoltaic (PV) module characterization;single-diode model (SDM);transcendental equations},
+    doi={10.1109/TII.2025.3545086},
+    ISSN={1941-0050},
+    month={},}
+
+
+    
