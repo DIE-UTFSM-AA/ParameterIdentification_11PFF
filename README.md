@@ -1,4 +1,3 @@
-*** project in progress
 # Identification of the 11-Parameter Functional Form Model for Photovoltaic Modules Using Manufacturer-Provided Ratings
 
 
