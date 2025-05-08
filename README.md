@@ -34,7 +34,7 @@ The data used for the development of this work are obtained in [Data for Validat
 
 ## Contents
 
-![Example of search space and uniqueness of solution](https://github.com/DIE-UTFSM-AA/ParameterIdentification_11PFF/blob/main/FIgs/fig1.png)
+![Example of search space and uniqueness of solution](https://github.com/DIE-UTFSM-AA/ParameterIdentification_11PFF/main/FIgs/fig1.png)
 
 
 
