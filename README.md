@@ -11,13 +11,16 @@ In light of the ongoing decline in photovoltaic (PV) generation costs and its gr
 ## Installation
 For the installation and start-up of the repository, it is necessary to have the following libraries:
 
-* [scikit-learn](https://scikit-learn.org/stable/install.html)
-* [numpy](https://numpy.org/install/)
-* [pandas](https://pandas.pydata.org/docs/getting_started/install.html)
-* [sympy](https://www.sympy.org/en/index.html)
 
-
-
+* [ipython==8.12.3](https://ipython.org/)
+* [matplotlib==3.10.3](https://matplotlib.org/)
+* [mpmath==1.3.0](https://mpmath.org/)
+* [numpy==2.2.5](https://numpy.org/install/)
+* [pandas==2.2.3](https://pandas.pydata.org/docs/getting_started/install.html)
+* [PyQt6==6.9.0](https://doc.qt.io/qtforpython-6/)
+* [scipy==1.15.3](https://scipy.org/)
+* [seaborn==0.13.2](https://seaborn.pydata.org/)
+* [sympy==1.13.1](https://www.sympy.org/en/index.html)
 
 
 
@@ -31,7 +34,9 @@ The data used for the development of this work are obtained in [Data for Validat
 
 ## Contents
 
-![Example of search space and uniqueness of solution](https://github.com/DIE-UTFSM-AA/A-Neural-Network-Aided-Functional-Model-of-PVArrays-for-a-Wide-Range-of-Atmospheric-Conditions/blob/main/FIgs/fig2.png)
+![Example of search space and uniqueness of solution](https://raw.githubusercontent.com/DIE-UTFSM-AA/ParameterIdentification_11PFF/refs/heads/main/FIgs/fig1.png)
+
+
 
 
 
