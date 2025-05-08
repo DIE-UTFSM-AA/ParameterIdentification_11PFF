@@ -47,7 +47,9 @@ The data used for out-of-sample validation in this work are obtained from [Data 
 
 
 ## References
-[[1]](https://ieeexplore.ieee.org/document/10187624)
+[[1]](https://ieeexplore.ieee.org/document/10187624) ] A. Angulo, M. Huerta, and F. Mancilla-David, "A neural network-aided functional model of photovoltaic arrays for a wide range of atmospheric
+conditions," IEEE Trans. Ind. Informat., vol. 20, no. 2, pp. 2487–2496, Feb. 2024.
+
 
 
 ## Citation
