@@ -1,4 +1,3 @@
-# ParameterIdentification_11PFF
 *** project in progress
 # Identification of the 11-Parameter Functional Form Model for Photovoltaic Modules Using Manufacturer-Provided Ratings
 
@@ -32,7 +31,7 @@ The data used for the development of this work are obtained in [Data for Validat
 
 ## Contents
 
-![Parameters dependency over a wide operating range for PV module](https://github.com/DIE-UTFSM-AA/A-Neural-Network-Aided-Functional-Model-of-PVArrays-for-a-Wide-Range-of-Atmospheric-Conditions/blob/main/FIgs/fig2.png)
+![Example of search space and uniqueness of solution](https://github.com/DIE-UTFSM-AA/A-Neural-Network-Aided-Functional-Model-of-PVArrays-for-a-Wide-Range-of-Atmospheric-Conditions/blob/main/FIgs/fig2.png)
 
 
 
