@@ -15,7 +15,6 @@ from src.PVModel import Model11PFF, Model7PFF, Model6PFF, Model5PFF
 from sympy import solve, Eq
 from scipy import interpolate
 from IPython.display import clear_output
-import swifter
 
 
 class PVfitting_11PFF_CEC(PVfitting):
