@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>AdditionalWindow</class>
+    <widget class="QWidget" name="AdditionalWindow">
+        <property name="styleSheet">
+            <string notr="true">
+                background-color: rgb(238, 238, 238);
+                color: rgb(0, 0, 0);
+            </string>
+        </property>
+        <layout class="QVBoxLayout" name="mainLayout">
+            <!-- Section A: Horizontal -->
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <!-- Section 1:<< Basic Parameters -->
+                    <item>x
+                        <widget class="QGroupBox" name="groupBoxBasicParams">
+                            <property name="title">
+                                <string>Basic Parameters</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string>
+                                    QGroupBox { 
+                                        background-color: rgb(220, 220, 220); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        margin-top: 1ex; 
+                                        } 
+                                    QGroupBox::title { 
+                                        subcontrol-origin: margin; 
+                                        subcontrol-position: top left; 
+                                        padding: 1 3px; 
+                                        background-color: rgb(200, 200, 200); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        }
+                                    QLabel { 
+                                        background-color: rgb(220, 220, 220); 
+                                        }
+                                    QLineEdit { 
+                                        background-color: rgb(255, 255, 255);
+                                    }   
+                                </string>
+                            </property>
+                            <layout class="QFormLayout" name="formLayoutBasic">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="labelModule">
+                                        <property name="text">
+                                            <string>Module:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="lineEditModule">
+                                    </widget>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="labelTechnology">
+                                        <property name="text">
+                                            <string>Technology:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <widget class="QLineEdit" name="lineEditTechnology">
+                                    </widget>
+                                </item>
+                                <item row="2" column="0">
+                                    <widget class="QLabel" name="labelNs">
+                                        <property name="text">
+                                            <string>Ns:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="1">
+                                    <widget class="QLineEdit" name="lineEditNs">
+                                    </widget>
+                                </item>
+                                <item row="3" column="0">
+                                    <widget class="QLabel" name="labelNp">
+                                        <property name="text">
+                                            <string>Np:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="1">
+                                    <widget class="QLineEdit" name="lineEditNp">
+                                    </widget>
+                                </item>
+                            </layout>
+                        </widget>
+                    </item>
+                    <!-- Section 2: Thermal Parameters -->
+                    <item>
+                        <widget class="QGroupBox" name="groupBoxThermalParams">
+                            <property name="title">
+                                <string>Thermal Parameters</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string>
+                                    QGroupBox { 
+                                        background-color: rgb(220, 220, 220); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        margin-top: 1ex; 
+                                        } 
+                                    QGroupBox::title { 
+                                        subcontrol-origin: margin; 
+                                        subcontrol-position: top left; 
+                                        padding: 1 3px; 
+                                        background-color: rgb(200, 200, 200); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        }
+                                    QLabel { 
+                                        background-color: rgb(220, 220, 220); 
+                                        }
+                                    QLineEdit { 
+                                        background-color: rgb(255, 255, 255);
+                                    }   
+                                </string>
+                            </property>
+                            <layout class="QFormLayout" name="formLayoutThermal">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="labelAlpha">
+                                        <property name="text">
+                                            <string>alpha (A/°C):</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="lineEditAlpha">
+                                    </widget>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="labelBeta">
+                                        <property name="text">
+                                            <string>beta (V/°C):</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <widget class="QLineEdit" name="lineEditBeta">
+                                    </widget>
+                                </item>
+                                <item row="2" column="0">
+                                    <widget class="QLabel" name="labelGamma">
+                                        <property name="text">
+                                            <string>gamma (W/°C):</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="1">
+                                    <widget class="QLineEdit" name="lineEditGamma">
+                                    </widget>
+                                </item>
+                            </layout>
+                        </widget>
+                    </item>
+                    <!-- Section 2: Thermal Parameters -->
+                    <item>
+                        <widget class="QGroupBox" name="groupBoxSolverOptions">
+                            <property name="title">
+                                <string>Solver Options</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string>
+                                    QGroupBox { 
+                                        background-color: rgb(220, 220, 220); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        margin-top: 1ex; 
+                                        } 
+                                    QGroupBox::title { 
+                                        subcontrol-origin: margin; 
+                                        subcontrol-position: top left; 
+                                        padding: 1 3px; 
+                                        background-color: rgb(200, 200, 200); 
+                                        border: 1px solid gray; 
+                                        border-radius: 5px; 
+                                        }
+                                    QComboBox{
+                                        background-color: rgb(255, 255, 255);
+                                        color: rgb(0, 0, 0);
+                                        height:25px;
+                                        width: 55px;
+                                    }
+                                    QLabel { 
+                                        background-color: rgb(220, 220, 220); 
+                                        }
+                                    QLineEdit { 
+                                        background-color: rgb(255, 255, 255);
+                                    }   
+                                    QPushButton {
+                                        background-color: rgb(180, 180, 180); 
+                                        border-radius: 5px;
+                                        border: 1px solid gray; 
+                                        font: bold 12px;
+                                        min-width: 9em;
+                                        height:20px;
+                                        width: 55px;
+                                    }
+                                    QPushButton:Hover {
+                                        background-color: rgb(150, 150, 150); 
+                                    }
+                                    QPushButton:pressed {
+                                        background-color: rgb(200, 100, 100); 
+                                    }
+                                </string>
+                            </property>
+                            <layout class="QFormLayout" name="formLayoutSolver">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="labelTol">
+                                        <property name="text">
+                                            <string>Tolerance:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="lineEditTol">
+                                        <property name="text">
+                                            <string>1e-8</string>
+                                        </property>
+                                    </widget> 
+                                </item>
+
+
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="labelMethod">
+                                        <property name="text">
+                                            <string>Method:</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                     <widget class="QComboBox" name="SelectMethod">
+                                        <item>
+                                            <property name="text">
+                                                <string>1+1/2+1/2</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>1+1</string>
+                                            </property>
+                                        </item>
+                                    </widget>
+                                </item>
+
+
+
+                                <item row="2" column="1">
+                                    <widget class="QPushButton" name="ButtonRun">
+                                        <property name="text">
+                                            <string>Run Model</string>
+                                        </property>
+                                    </widget>
+                                </item>
+
+
+                            </layout>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+
+
+            <item>
+                <widget class="QFrame" name="verticalSeparator">
+                    <property name="minimumSize">
+                        <size>
+                            <width>20</width>  
+                            <height>1</height> 
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>  
+                    </property>
+                    <property name="frameShadow">
+                        <enum>QFrame::Plain</enum>  
+                    </property>
+                </widget>
+            </item>
+            
+            <!-- Section 3: Electric Measurement -->
+            <item>
+                <widget class="QGroupBox" name="groupBoxThermalParams">
+                    <property name="title">
+                        <string>Electrical Parameters</string>
+                    </property>
+                    <property name="styleSheet">
+                        <string>
+                            QGroupBox { 
+                                background-color: rgb(220, 220, 220); 
+                                border: 1px solid gray; 
+                                border-radius: 5px; 
+                                margin-top: 1ex; 
+                                } 
+                            QGroupBox::title { 
+                                subcontrol-origin: margin; 
+                                subcontrol-position: top left; 
+                                padding: 1 3px; 
+                                background-color: rgb(200, 200, 200); 
+                                border: 1px solid gray; 
+                                border-radius: 5px; 
+                                }
+                            QLabel { 
+                                background-color: rgb(220, 220, 220); 
+                                }
+                            QTableWidget{
+                                background-color: rgb(255, 255, 255); 
+                            }
+                            QVBoxLayout {
+                                margin-left: 0px
+                            }
+                        </string>
+                    </property>
+                    <layout class="QVBoxLayout" name="mainLayout">
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <item>
+                            <widget class="QTableWidget" name="tableMeasurements">
+                                <property name="columnCount">
+                                    <number>7</number> 
+                                </property>
+                                <property name="rowCount">
+                                    <number>3</number> 
+                                </property>
+
+
+                                <property name="horizontalHeaderLabels">
+                                    <stringlist>
+                                        <string>S (W/m2)</string>
+                                        <string>T(°C)</string>
+                                        <string>Voc (V)</string>
+                                        <string>Isc (A)</string>
+                                        <string>Vmp (V)</string>
+                                        <string>Imp (A)</string>
+                                        <string>Pmp (W)</string>
+                                    </stringlist>
+                                </property>
+
+
+
+                                <property name="verticalHeaderLabels">
+                                    <stringlist>
+                                        <string>STC    </string>
+                                        <string>NOCT   </string>
+                                        <string>LIC    </string>
+                                    </stringlist>
+                                </property>
+
+                                
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </layout>
+    </widget>
+</ui>
+
+
